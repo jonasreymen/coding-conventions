@@ -1,0 +1,6 @@
+parameters:
+    checkTooWideReturnTypesInProtectedAndPublicMethods: true
+    checkUninitializedProperties: true
+    checkBenevolentUnionTypes: true
+    reportAlwaysTrueInLastCondition: true
+    inferPrivatePropertyTypeFromConstructor: true

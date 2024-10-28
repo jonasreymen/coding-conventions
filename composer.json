@@ -1,0 +1,23 @@
+{
+    "name": "jonas-reymen/coding-conventions",
+    "description": "Coding Conventions is a PHP package created to elevate code quality, maintainability, and consistency within individual or team projects. Designed specifically for PHP developers, this package enforces standardized coding practices and provides tools to analyze, refactor, and enhance code based on industry best practices. With a focus on readability, reusability, and optimized performance, Coding Conventions integrates easily into PHP development workflows, making it easier for developers to write cleaner, more maintainable code",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "JonasReymen\\CodingConventions\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jonasreymen",
+            "email": "jonasreymen@outlook.com"
+        }
+    ],
+    "php": ">=8.3",
+    "minimum-stability": "stable",
+    "require": {
+        "squizlabs/php_codesniffer": "^3.10",
+        "phpstan/phpstan": "^1.12",
+        "phpstan/phpstan-strict-rules": "^1.6"
+    }
+}
