@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset name="CodingConventionsCodingStandard">
+    <description>Default PHP_CodeSniffer rules for MyPackage.</description>
+
+    <!-- Include PSR-12 and any other rules you want -->
+    <rule ref="PSR12"/>
+
+    <!-- Customizations -->
+    <rule ref="Generic.Metrics.FunctionLength">
+        <properties>
+            <property name="max" value="50"/>
+        </properties>
+    </rule>
+</ruleset>
